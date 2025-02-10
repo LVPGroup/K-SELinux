@@ -1,0 +1,141 @@
+{
+    "association": [
+        "polmatch",
+        "sendto",
+        "setcontext",
+        "recvfrom"
+    ],
+    "cap2_userns": [
+        "block_suspend",
+        "wake_alarm",
+        "syslog",
+        "mac_override",
+        "mac_admin",
+        "audit_read"
+    ],
+    "cap_userns": [
+        "sys_time",
+        "fowner",
+        "net_bind_service",
+        "sys_ptrace",
+        "sys_boot",
+        "lease",
+        "sys_nice",
+        "net_raw",
+        "fsetid",
+        "sys_admin",
+        "dac_read_search",
+        "setfcap",
+        "sys_resource",
+        "ipc_owner",
+        "mknod",
+        "dac_override",
+        "chown",
+        "linux_immutable",
+        "setuid",
+        "audit_control",
+        "net_broadcast",
+        "sys_tty_config",
+        "setgid",
+        "setpcap",
+        "net_admin",
+        "sys_module",
+        "audit_write",
+        "sys_chroot",
+        "ipc_lock",
+        "sys_rawio",
+        "kill",
+        "sys_pacct"
+    ],
+    "dccp_socket": [
+        "getattr",
+        "bind",
+        "name_connect",
+        "ioctl",
+        "listen",
+        "create",
+        "lock",
+        "relabelfrom",
+        "name_bind",
+        "setopt",
+        "append",
+        "accept",
+        "relabelto",
+        "recvfrom",
+        "write",
+        "connect",
+        "read",
+        "setattr",
+        "sendto",
+        "node_bind",
+        "shutdown",
+        "getopt"
+    ],
+    "ipc": [
+        "getattr",
+        "setattr",
+        "associate",
+        "unix_write",
+        "write",
+        "unix_read",
+        "read",
+        "create",
+        "destroy"
+    ],
+    "kernel_service": [
+        "create_files_as",
+        "use_as_override"
+    ],
+    "key": [
+        "create",
+        "link",
+        "read",
+        "view"
+    ],
+    "netif": [
+        "ingress",
+        "egress"
+    ],
+    "node": [
+        "sendto",
+        "recvfrom"
+    ],
+    "packet": [
+        "send",
+        "flow_in",
+        "forward_out",
+        "forward_in",
+        "relabelto",
+        "recv",
+        "flow_out"
+    ],
+    "peer": [
+        "recv"
+    ],
+    "process": [
+        "setkeycreate"
+    ],
+    "security": [
+        "compute_user",
+        "compute_member",
+        "compute_relabel"
+    ],
+    "system": [
+        "ipc_info"
+    ],
+    "unix_dgram_socket": [
+        "relabelfrom",
+        "name_bind",
+        "listen",
+        "accept",
+        "relabelto",
+        "recvfrom"
+    ],
+    "unix_stream_socket": [
+        "sendto",
+        "relabelfrom",
+        "name_bind",
+        "relabelto",
+        "recvfrom"
+    ]
+}

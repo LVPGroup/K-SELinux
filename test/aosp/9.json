@@ -1,0 +1,87 @@
+{
+    "association": [
+        "sendto",
+        "setcontext",
+        "recvfrom",
+        "polmatch"
+    ],
+    "dccp_socket": [
+        "setopt",
+        "listen",
+        "append",
+        "lock",
+        "create",
+        "name_bind",
+        "getattr",
+        "getopt",
+        "recvfrom",
+        "relabelto",
+        "sendto",
+        "map",
+        "name_connect",
+        "read",
+        "relabelfrom",
+        "ioctl",
+        "bind",
+        "node_bind",
+        "accept",
+        "connect",
+        "shutdown",
+        "write",
+        "setattr"
+    ],
+    "ipc": [
+        "read",
+        "create",
+        "unix_read",
+        "getattr",
+        "destroy",
+        "associate",
+        "unix_write",
+        "write",
+        "setattr"
+    ],
+    "kernel_service": [
+        "use_as_override",
+        "create_files_as"
+    ],
+    "key": [
+        "read",
+        "create",
+        "view",
+        "link"
+    ],
+    "netif": [
+        "ingress",
+        "egress"
+    ],
+    "node": [
+        "sendto",
+        "recvfrom"
+    ],
+    "packet": [
+        "recv",
+        "forward_out",
+        "flow_out",
+        "send",
+        "relabelto",
+        "forward_in",
+        "flow_in"
+    ],
+    "peer": [
+        "recv"
+    ],
+    "process": [
+        "setkeycreate",
+        "getrlimit"
+    ],
+    "security": [
+        "compute_member",
+        "compute_user",
+        "validate_trans",
+        "compute_relabel"
+    ],
+    "system": [
+        "ipc_info"
+    ]
+}
